@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 import random
-import pprint
 import re
 
 
@@ -37,6 +36,7 @@ def cut_up_poem():
         return poem
     except ValueError:
         print('Ruh-roh. Your scissors missed the page! Try again.')
+
 
 print(cut_up_poem())
 
